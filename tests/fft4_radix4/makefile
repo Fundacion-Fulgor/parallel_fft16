@@ -3,12 +3,11 @@ SIM ?= icarus
 TOPLEVEL_LANG ?= verilog
 
 # Path to source directory
-SRC_DIR = $(PWD)/../../unic_cass_wrapper_user_project/fft16_project/src
+SRC_DIR = $(CURDIR)/../../unic_cass_wrapper_user_project/fft16_project/src
 
 # Sources
 VERILOG_SOURCES += $(SRC_DIR)/fft4_radix4.v
 VERILOG_SOURCES += $(SRC_DIR)/fft4_mul.v
-VERILOG_SOURCES += $(SRC_DIR)/complex_multiplier.v
 VERILOG_SOURCES += $(SRC_DIR)/clip_round.v
 
 # DUT settings

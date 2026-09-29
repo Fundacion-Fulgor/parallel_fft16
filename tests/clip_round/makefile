@@ -3,13 +3,14 @@ SIM ?= icarus
 TOPLEVEL_LANG ?= verilog
 
 # Path to source directory
-SRC_DIR = $(PWD)/../../unic_cass_wrapper_user_project/fft16_project/src
+SRC_DIR = $(CURDIR)/../../unic_cass_wrapper_user_project/fft16_project/src
 
 # Sources
 VERILOG_SOURCES += $(SRC_DIR)/clip_round.v
+VERILOG_SOURCES += $(CURDIR)/clip_round_cfg.v
 
 # DUT settings
-TOPLEVEL = clip_round
+TOPLEVEL = clip_round_cfg
 MODULE = clip_round_tb
 
 # Cocotb standard rules
