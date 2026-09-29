@@ -3,10 +3,7 @@
 
 **Authors:**
 - Cabrera, Augusto G.
-- Font, Julian
 - Lema, Adan J. A.
-- Mosquera, Valentina
-- Romero D., Agustín
 - Villar, Federico I.
 
 [![LibreLane Digital Flow](https://img.shields.io/badge/flow-LibreLane-blue)](https://github.com/efabless/librelane)
